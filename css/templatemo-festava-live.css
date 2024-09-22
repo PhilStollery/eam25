@@ -6,6 +6,12 @@ https://templatemo.com/tm-583-festava-live
 
 */
 
+@font-face {
+  font-family: 'Nadira';
+  src: url('../fonts/NF-Nadira-Pro-Regular.otf');
+  font-weight: normal;
+}
+
 
 /*---------------------------------------
   CUSTOM PROPERTIES ( VARIABLES )             
@@ -22,7 +28,7 @@ https://templatemo.com/tm-583-festava-live
   --border-color:                 #7fffd4;
   --link-hover-color:             #B22727;
 
-  --body-font-family:             'Outfit', sans-serif;
+  --body-font-family:             'Nadira', serif;
 
   --h1-font-size:                 74px;
   --h2-font-size:                 46px;
@@ -31,7 +37,7 @@ https://templatemo.com/tm-583-festava-live
   --h5-font-size:                 24px;
   --h6-font-size:                 22px;
   --p-font-size:                  18px;
-  --btn-font-size:                14px;
+  --btn-font-size:                20px;
   --copyright-font-size:          16px;
 
   --border-radius-large:          100px;
@@ -479,7 +485,7 @@ strong {
   height: calc(100vh - 51px);
 }
 
-.hero-section small {
+.hero-section p {
   color: var(--white-color);
   text-transform: uppercase;
 }
@@ -824,7 +830,6 @@ strong {
 
 .site-footer-top {
   background-color: var(--secondary-color);
-  background-image: url('../images/nainoa-shizuru-NcdG9mK3PBY-unsplash.jpg');
   background-repeat: no-repeat;
   margin-bottom: 70px;
   padding-top: 30px;
@@ -988,7 +993,7 @@ strong {
 
 @media screen and (max-width: 767px) {
   .custom-btn {
-    font-size: 14px;
+    font-size: 18px;
     padding: 10px 20px;
   }
 }
